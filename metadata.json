@@ -1,0 +1,6 @@
+{
+  "name": "Salwa Nutrisindo - Gerbang Informasi & Katalog Cuka Buah Alami",
+  "description": "Website profil perusahaan dan katalog produk cuka buah alami PT Salwa Nutrisindo (Cuka Apel, Nanas, Lemon Malang), lengkap dengan tautan Tokopedia, Shopee, TikTok Shop, WhatsApp Admin, FAQ, lokasi produksi, dan info kontak.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
