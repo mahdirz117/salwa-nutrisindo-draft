@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog, onExploreFAQ }) =>
         {/* Subtle pill tag */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-semibold tracking-wider uppercase text-emerald-300 mb-6 shadow-inner animate-fade-in">
           <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-          <span>GERBANG RESMI PT SALWA NUTRISINDO</span>
+          <span>PT. SALWA NUTRISINDO</span>
         </div>
 
         {/* Hero Title */}
