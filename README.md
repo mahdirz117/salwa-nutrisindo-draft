@@ -2,19 +2,26 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Salwa Nutrisindo
 
-This contains everything you need to run your app locally.
+Website profil dan katalog produk PT Salwa Nutrisindo.
 
-View your app in AI Studio: https://ai.studio/apps/5edcd5a4-8c60-4610-b1a0-13f81a8f8488
-
-## Run Locally
+## Menjalankan secara lokal
 
 **Prerequisites:**  Node.js
 
+1. Install dependencies: `npm install`
+2. Start the development server: `npm run dev`
+3. Build for production: `npm run build`
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy ke GitHub Pages
+
+Workflow GitHub Actions di `.github/workflows/deploy.yml` akan membangun dan menerbitkan website secara otomatis setiap kali ada push ke branch `main`.
+
+1. Push perubahan ke branch `main`.
+2. Di GitHub, buka **Settings → Pages** pada repositori ini.
+3. Pada **Build and deployment → Source**, pilih **GitHub Actions**.
+4. Buka tab **Actions** dan tunggu workflow **Deploy to GitHub Pages** selesai.
+5. Website tersedia di `https://mahdirz117.github.io/salwa-nutrisindo-draft/`.
+
+Build memakai jalur aset relatif agar dapat digunakan di URL GitHub Pages repositori maupun domain kustom. Untuk memakai domain kustom, tambahkan domain di **Settings → Pages** lalu arahkan DNS domain ke GitHub Pages sesuai petunjuk GitHub.
